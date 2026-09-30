@@ -1,0 +1,150 @@
+# ==============================
+# Environment & Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.secret
+secrets/
+credentials/
+
+# ==============================
+# Java / Spring Boot / Maven
+# ==============================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ==============================
+# Node.js / React / Frontend
+# ==============================
+node_modules/
+dist/
+build/
+.cache/
+.vite/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==============================
+# Python / AI Service
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.venv/
+venv/
+env/
+ENV/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python packaging
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ==============================
+# AI / ML / RAG
+# ==============================
+# Local model files
+models/
+*.gguf
+*.bin
+*.safetensors
+
+# Vector database / local data
+chroma/
+chroma_db/
+vectorstore/
+vector_db/
+
+# Generated embeddings/indexes
+embeddings/
+indexes/
+
+# ==============================
+# Databases / Local Data
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
+
+# MySQL dumps
+*.sql.gz
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# IDE / Editor
+# ==============================
+.idea/
+*.iml
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# ==============================
+# Operating System
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Temporary Files
+# ==============================
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+# ==============================
+# Build / Coverage
+# ==============================
+coverage/
+.coverage
+htmlcov/
+
+# ==============================
+# Docker
+# ==============================
+docker-compose.override.yml
+
+# ==============================
+# Terraform / Infrastructure
+# ==============================
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!example.tfvars
+
+# ==============================
+# Local uploads
+# ==============================
+uploads/
+tmp/
+temp/
