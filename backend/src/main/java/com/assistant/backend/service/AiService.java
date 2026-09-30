@@ -10,7 +10,7 @@ public class AiService {
     private final RestClient restClient;
     
     public AiService() {
-        this.restClient = RestClient.builder().baseUrl("http://localhost:8080").build();
+        this.restClient = RestClient.builder().baseUrl("http://localhost:8000").build();
     }
 
     public ProjectAnalysisResponse analyzeProject(

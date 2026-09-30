@@ -10,7 +10,7 @@ import com.assistant.backend.dto.ProjectAnalysisResponse;
 import com.assistant.backend.service.AiService;
 
 @RestController 
-@RequestMapping ("/api/project")
+@RequestMapping ("/api/ai")
 public class AIController {
 
     private final AiService aiService;
